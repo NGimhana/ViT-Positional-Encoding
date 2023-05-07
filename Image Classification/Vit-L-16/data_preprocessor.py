@@ -7,7 +7,7 @@ import torch
 from torchvision.transforms import CenterCrop, Compose, Normalize, RandomHorizontalFlip, RandomResizedCrop, Resize, ToTensor
 
 # load cifar10 (only small portion for demonstration purposes) 
-train_ds, test_ds = load_dataset('cifar10', split=['train[:5000]', 'test[:2000]'])
+train_ds, test_ds = load_dataset('cifar10', split=['train', 'test']) #:5000, :20000
 # split up training into training + validation
 splits = train_ds.train_test_split(test_size=0.1)
 train_ds = splits['train']
@@ -15,7 +15,7 @@ val_ds = splits['test']
 
 int2str = train_ds.features['label'].int2str
 
-processor = ViTImageProcessor.from_pretrained('google/vit-base-patch16-224-in21k')
+processor = ViTImageProcessor.from_pretrained('google/vit-large-patch16-224-in21k')
 image_mean = processor.image_mean
 image_std = processor.image_std
 size = processor.size["height"]

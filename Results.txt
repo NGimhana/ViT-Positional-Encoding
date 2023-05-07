@@ -1,0 +1,199 @@
+Vit-16
+
+Vit-16 Model With Absolute Positional Embedding
+Finetuned with cifar10
+
+Results
+Batch 100 test loss: 1.9130715131759644 test accuracy 0.25
+Batch 200 test loss: 1.9477556943893433 test accuracy 0.5
+Batch 300 test loss: 1.925345540046692 test accuracy 0.5
+Batch 400 test loss: 1.9185270071029663 test accuracy 0.0
+Batch 500 test loss: 1.920525074005127 test accuracy 0.25
+Batch 600 test loss: 1.9203243255615234 test accuracy 0.25
+Batch 700 test loss: 1.9203782081604004 test accuracy 0.0
+Batch 800 test loss: 1.9233405590057373 test accuracy 0.25
+Batch 900 test loss: 1.9240070581436157 test accuracy 0.5
+Batch 1000 test loss: 1.9265648126602173 test accuracy 0.0
+Batch 1100 test loss: 1.9281620979309082 test accuracy 0.25
+Batch 1200 test loss: 1.9276732206344604 test accuracy 0.0
+Batch 1300 test loss: 1.9250863790512085 test accuracy 0.0
+Batch 1400 test loss: 1.9287471771240234 test accuracy 0.75
+Batch 1500 test loss: 1.9316445589065552 test accuracy 0.0
+Batch 1600 test loss: 1.9308933019638062 test accuracy 0.5
+Batch 1700 test loss: 1.930428147315979 test accuracy 0.75
+Batch 1800 test loss: 1.931434154510498 test accuracy 0.25
+Batch 1900 test loss: 1.9301865100860596 test accuracy 0.25
+Batch 2000 test loss: 1.9297274351119995 test accuracy 0.75
+Batch 2100 test loss: 1.9299858808517456 test accuracy 0.0
+Batch 2200 test loss: 1.9310076236724854 test accuracy 0.5
+Batch 2300 test loss: 1.9300066232681274 test accuracy 0.75
+Batch 2400 test loss: 1.9311306476593018 test accuracy 0.25
+Batch 2500 test loss: 1.9303793907165527 test accuracy 0.25
+Test accuracy: 0.1431
+Total Inference time: 0:03:46.623454
+
+Model With Relative Positional Embedding
+Finetuned with cifar10
+
+Batch 100 test loss: 1.9949227571487427 test accuracy 0.0
+Batch 200 test loss: 2.008629322052002 test accuracy 0.25
+Batch 300 test loss: 1.9891480207443237 test accuracy 0.25
+Batch 400 test loss: 1.984843373298645 test accuracy 0.5
+Batch 500 test loss: 1.9809415340423584 test accuracy 0.5
+Batch 600 test loss: 1.984138011932373 test accuracy 0.25
+Batch 700 test loss: 1.983291745185852 test accuracy 0.0
+Batch 800 test loss: 1.9832723140716553 test accuracy 0.75
+Batch 900 test loss: 1.9818251132965088 test accuracy 0.0
+Batch 1000 test loss: 1.9835683107376099 test accuracy 0.0
+Batch 1100 test loss: 1.9832355976104736 test accuracy 0.0
+Batch 1200 test loss: 1.9830564260482788 test accuracy 0.5
+Batch 1300 test loss: 1.9809138774871826 test accuracy 0.0
+Batch 1400 test loss: 1.9829871654510498 test accuracy 0.5
+Batch 1500 test loss: 1.9843294620513916 test accuracy 0.0
+Batch 1600 test loss: 1.9856431484222412 test accuracy 0.5
+Batch 1700 test loss: 1.9874271154403687 test accuracy 0.0
+Batch 1800 test loss: 1.987412929534912 test accuracy 0.25
+Batch 1900 test loss: 1.9850062131881714 test accuracy 0.25
+Batch 2000 test loss: 1.9850554466247559 test accuracy 0.25
+Batch 2100 test loss: 1.9833914041519165 test accuracy 0.5
+Batch 2200 test loss: 1.9827383756637573 test accuracy 0.5
+Batch 2300 test loss: 1.9824856519699097 test accuracy 0.5
+Batch 2400 test loss: 1.9824978113174438 test accuracy 0.5
+Batch 2500 test loss: 1.9821763038635254 test accuracy 0.5
+Test accuracy: 0.122
+Total Inference time: 0:04:59.782470
+
+
+Vit-32
+
+Vit-32 Model With Absolute Positional Embedding
+Finetuned with cifar10
+
+Batch 100 test loss: 1.9304119348526 test accuracy 0.25
+Batch 200 test loss: 1.9694364070892334 test accuracy 0.25
+Batch 300 test loss: 1.956714153289795 test accuracy 0.0
+Batch 400 test loss: 1.9458811283111572 test accuracy 0.0
+Batch 500 test loss: 1.9406685829162598 test accuracy 0.0
+Batch 600 test loss: 1.9437825679779053 test accuracy 0.25
+Batch 700 test loss: 1.939911961555481 test accuracy 0.25
+Batch 800 test loss: 1.941542148590088 test accuracy 0.5
+Batch 900 test loss: 1.942305088043213 test accuracy 0.25
+Batch 1000 test loss: 1.943606972694397 test accuracy 0.25
+Batch 1100 test loss: 1.945827841758728 test accuracy 0.25
+Batch 1200 test loss: 1.9455128908157349 test accuracy 0.0
+Batch 1300 test loss: 1.9409940242767334 test accuracy 0.0
+Batch 1400 test loss: 1.9430726766586304 test accuracy 0.5
+Batch 1500 test loss: 1.9424049854278564 test accuracy 0.0
+Batch 1600 test loss: 1.9426380395889282 test accuracy 0.5
+Batch 1700 test loss: 1.943466305732727 test accuracy 0.5
+Batch 1800 test loss: 1.9437600374221802 test accuracy 0.25
+Batch 1900 test loss: 1.9418283700942993 test accuracy 0.75
+Batch 2000 test loss: 1.9424394369125366 test accuracy 0.5
+Batch 2100 test loss: 1.9421298503875732 test accuracy 0.25
+Batch 2200 test loss: 1.942398190498352 test accuracy 0.5
+Batch 2300 test loss: 1.9417364597320557 test accuracy 0.25
+Batch 2400 test loss: 1.9409924745559692 test accuracy 0.5
+Batch 2500 test loss: 1.9398949146270752 test accuracy 0.25
+Test accuracy: 0.1336
+Total Inference time: 0:04:35.842013
+
+Vit-32
+
+Vit-32 Model With Relative Positional Embedding
+Finetuned with cifar10
+
+Batch 100 test loss: 1.9735524654388428 test accuracy 0.75
+Batch 200 test loss: 2.0090856552124023 test accuracy 0.0
+Batch 300 test loss: 2.0053980350494385 test accuracy 0.25
+Batch 400 test loss: 1.9954209327697754 test accuracy 0.0
+Batch 500 test loss: 1.9944849014282227 test accuracy 0.0
+Batch 600 test loss: 2.0000104904174805 test accuracy 0.0
+Batch 700 test loss: 1.9927854537963867 test accuracy 0.25
+Batch 800 test loss: 1.9949554204940796 test accuracy 0.25
+Batch 900 test loss: 1.9934277534484863 test accuracy 0.0
+Batch 1000 test loss: 1.9952744245529175 test accuracy 0.0
+Batch 1100 test loss: 1.996120572090149 test accuracy 0.25
+Batch 1200 test loss: 1.995396614074707 test accuracy 0.0
+Batch 1300 test loss: 1.994740605354309 test accuracy 0.0
+Batch 1400 test loss: 1.9952679872512817 test accuracy 0.25
+Batch 1500 test loss: 1.9943227767944336 test accuracy 0.25
+Batch 1600 test loss: 1.9960702657699585 test accuracy 0.75
+Batch 1700 test loss: 1.9947484731674194 test accuracy 0.5
+Batch 1800 test loss: 1.9943841695785522 test accuracy 0.25
+Batch 1900 test loss: 1.992607593536377 test accuracy 0.5
+Batch 2000 test loss: 1.9940413236618042 test accuracy 0.0
+Batch 2100 test loss: 1.9943503141403198 test accuracy 0.25
+Batch 2200 test loss: 1.9951549768447876 test accuracy 0.25
+Batch 2300 test loss: 1.9943960905075073 test accuracy 0.25
+Batch 2400 test loss: 1.995406985282898 test accuracy 0.25
+Batch 2500 test loss: 1.9939173460006714 test accuracy 0.5
+Test accuracy: 0.11075
+Total Inference time: 0:05:12.669893
+
+Vit-16- Large
+
+Vit-16 Large Model With Absolute Positional Embedding
+Finetuned with cifar10
+
+Batch 100 test loss: 1.9615830183029175 test accuracy 0.0
+Batch 200 test loss: 1.972556233406067 test accuracy 0.0
+Batch 300 test loss: 1.9580111503601074 test accuracy 0.0
+Batch 400 test loss: 1.9453392028808594 test accuracy 0.25
+Batch 500 test loss: 1.9451572895050049 test accuracy 0.25
+Batch 600 test loss: 1.951037883758545 test accuracy 0.75
+Batch 700 test loss: 1.9487929344177246 test accuracy 0.0
+Batch 800 test loss: 1.9537538290023804 test accuracy 0.25
+Batch 900 test loss: 1.9533823728561401 test accuracy 0.0
+Batch 1000 test loss: 1.955094337463379 test accuracy 0.0
+Batch 1100 test loss: 1.9544360637664795 test accuracy 0.0
+Batch 1200 test loss: 1.9555542469024658 test accuracy 0.0
+Batch 1300 test loss: 1.9527603387832642 test accuracy 0.25
+Batch 1400 test loss: 1.9554522037506104 test accuracy 0.0
+Batch 1500 test loss: 1.9552884101867676 test accuracy 0.25
+Batch 1600 test loss: 1.9588819742202759 test accuracy 0.75
+Batch 1700 test loss: 1.9591840505599976 test accuracy 0.25
+Batch 1800 test loss: 1.9598649740219116 test accuracy 0.0
+Batch 1900 test loss: 1.9577398300170898 test accuracy 0.0
+Batch 2000 test loss: 1.957019329071045 test accuracy 0.25
+Batch 2100 test loss: 1.95741605758667 test accuracy 0.25
+Batch 2200 test loss: 1.9580899477005005 test accuracy 0.5
+Batch 2300 test loss: 1.9571361541748047 test accuracy 0.0
+Batch 2400 test loss: 1.9579766988754272 test accuracy 0.5
+Batch 2500 test loss: 1.95693838596344 test accuracy 0.75
+Test accuracy: 0.12825
+Total Inference time: 0:07:16.756999
+
+
+Vit-16- Large
+
+Vit-16 Large Model With Relative Positional Embedding
+Finetuned with cifar10
+
+Batch 100 test loss: 2.0356953144073486 test accuracy 0.25
+Batch 200 test loss: 2.066201686859131 test accuracy 0.0
+Batch 300 test loss: 2.057274580001831 test accuracy 0.0
+Batch 400 test loss: 2.058851957321167 test accuracy 0.0
+Batch 500 test loss: 2.058629035949707 test accuracy 0.5
+Batch 600 test loss: 2.0630686283111572 test accuracy 0.25
+Batch 700 test loss: 2.059422731399536 test accuracy 0.5
+Batch 800 test loss: 2.062920093536377 test accuracy 0.0
+Batch 900 test loss: 2.061567544937134 test accuracy 0.0
+Batch 1000 test loss: 2.0631937980651855 test accuracy 0.0
+Batch 1100 test loss: 2.0630977153778076 test accuracy 0.25
+Batch 1200 test loss: 2.063502788543701 test accuracy 0.0
+Batch 1300 test loss: 2.063331127166748 test accuracy 0.25
+Batch 1400 test loss: 2.064983606338501 test accuracy 0.25
+Batch 1500 test loss: 2.067699432373047 test accuracy 0.0
+Batch 1600 test loss: 2.068046808242798 test accuracy 0.0
+Batch 1700 test loss: 2.0676841735839844 test accuracy 0.25
+Batch 1800 test loss: 2.0689451694488525 test accuracy 0.0
+Batch 1900 test loss: 2.0698819160461426 test accuracy 0.0
+Batch 2000 test loss: 2.0694358348846436 test accuracy 0.25
+Batch 2100 test loss: 2.0665652751922607 test accuracy 0.0
+Batch 2200 test loss: 2.0666842460632324 test accuracy 0.5
+Batch 2300 test loss: 2.065293550491333 test accuracy 0.5
+Batch 2400 test loss: 2.0653300285339355 test accuracy 0.0
+Batch 2500 test loss: 2.0649185180664062 test accuracy 0.25
+Test accuracy: 0.10125
+Total Inference time: 0:06:28.323457
+

@@ -1,0 +1,7 @@
+model,dataset,positional_embedding,accuracy,inference_time,task
+vit-16,cifar10,absolute,0.1431,0:03:46.623454,image_classification
+vit-16,cifar10,relative,0.122,0:04:59.782470,image_classification
+vit-32,cifar10,absolute,0.1336,0:04:35.842013,image_classification
+vit-32,cifar10,relative,0.11075,0:05:12.669893,image_classification
+vit-L-16,cifar10,absolute,0.12825,0:07:16.756999,image_classification
+vit-L-16,cifar10,relative,0.10125,0:06:28.323457,image_classification

@@ -5,3 +5,9 @@ vit-32,cifar10,absolute,0.1336,0:04:35.842013,image_classification
 vit-32,cifar10,relative,0.11075,0:05:12.669893,image_classification
 vit-L-16,cifar10,absolute,0.12825,0:07:16.756999,image_classification
 vit-L-16,cifar10,relative,0.10125,0:06:28.323457,image_classification
+vit-16,adk20k,absolute,0.7106,0:02:09.947591,semantic_segmentation
+vit-16,adk20k,relative,0.7532,0:02:17.257293,semantic_segmentation
+vit-32,adk20k,absolute,0.792,0:01:23.375897,semantic_segmentation
+vit-32,adk20k,relative,0.8042,0:01:22.918075,semantic_segmentation
+vit-L-16,adk20k,absolute,0.7975,0:02:29.397069,semantic_segmentation
+vit-L-16,adk20k,relative,0.775,0:02:18.941260,semantic_segmentation

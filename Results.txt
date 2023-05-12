@@ -1,3 +1,6 @@
+Image Classification
+====================
+
 Vit-16
 
 Vit-16 Model With Absolute Positional Embedding
@@ -196,4 +199,77 @@ Batch 2400 test loss: 2.0653300285339355 test accuracy 0.0
 Batch 2500 test loss: 2.0649185180664062 test accuracy 0.25
 Test accuracy: 0.10125
 Total Inference time: 0:06:28.323457
+
+
+Semantic Segmentation
+====================
+Vit-16
+
+For 473 images
+Vit-16 Model With Absolute Positional Embedding
+Finetuned with ADE20k
+
+{"train_loss": 1.7888425808011388, "train_learning_rate": 0.0009930340426627592, 
+"val_pixel_accuracy": 71.06, "val_mean_accuracy": 24.17, "val_mean_iou": 17.61, 
+"epoch": 0, "num_updates": 5053}
+Total Inference time: 0:02:09.947591
+
+
+Vit-16
+
+For 473 images
+Vit-16 Model With Relational Positional Embedding
+Finetuned with ADE20k
+
+Test accuracy: 
+Total Inference time: 0:02:17.257293
+
+{"train_loss": 1.1090343936631968, "train_learning_rate": 0.0009651240104122863, 
+"val_pixel_accuracy": 75.32, "val_mean_accuracy": 39.21, "val_mean_iou": 29.58, 
+"epoch": 2, "num_updates": 15159}
+----------------------------------------------------
+
+Vit-32
+
+For 473 images
+Vit-32 Model With Absolute Positional Embedding
+Finetuned with ADE20k
+
+{"train_loss": 0.5143713714323043, "train_learning_rate": 0.0006219263708553592, "val_pixel_accuracy": 79.2, 
+"val_mean_accuracy": 52.45, "val_mean_iou": 41.09, "epoch": 26, "num_updates": 136431}
+Total Inference time: 0:01:23.375897
+
+
+ViT-32
+For 473 images
+Vit-32 Model With Relative Positional Embedding
+Finetuned with ADE20k
+{"train_loss": 0.3622923678389144, "train_learning_rate": 0.00018782889896002723, 
+"val_pixel_accuracy": 80.42, "val_mean_accuracy": 54.86, "val_mean_iou": 43.78, "epoch": 54, "num_updates": 277915}
+Total Inference time: 0:01:22.918075
+--------------------------------
+
+ViT-L-16
+For 473 images
+Vit-L-16 Model With Absolute Positional Embedding
+Finetuned with ADE20k
+{"train_loss": 0.7729381223244406, "train_learning_rate": 0.0009651240104122863, 
+"val_pixel_accuracy": 79.75, "val_mean_accuracy": 50.41, "val_mean_iou": 39.47, "epoch": 2, "num_updates": 15159}
+Total Inference time: 0:02:29.397069
+
+
+For 473 images
+Vit-L-16 Model With Relative Positional Embedding
+Finetuned with ADE20k
+{"train_loss": 1.4175233386623582, "train_learning_rate": 0.0009930340426627592,
+ "val_pixel_accuracy": 77.5, "val_mean_accuracy": 40.16, "val_mean_iou": 31.4, "epoch": 0, "num_updates": 5053}
+Total Inference time: 0:02:18.941260
+
+
+
+
+
+
+
+
 
